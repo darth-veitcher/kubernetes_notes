@@ -2,8 +2,8 @@
 
 To deploy a Kubernetes cluster there are multiple tools available:
 
-* Minikube
-* Docker Client
+* Minikube \(local install\)
+* Docker Client \(local install\)
 * Kops
 * Kubeadm
 
