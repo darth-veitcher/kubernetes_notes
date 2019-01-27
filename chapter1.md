@@ -52,7 +52,7 @@ A response `deployment.apps "hello-minikube" created` is received from the clust
 kubectl expose deployment hello-minikube --type=NodePort
 ```
 
-A response `service "hello-minikube" exposed` is receibed.
+A response `service "hello-minikube" exposed` is received.
 
 ## MacOS with VMWare Fusion
 
