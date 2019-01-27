@@ -10,5 +10,7 @@ Minikube and Docker spin up single node clusters only for development and testin
 * Kops
 * Kubeadm
 
+Either Kops or Kubeadm can be used for production clusters \(use only one\)
+
 
 
