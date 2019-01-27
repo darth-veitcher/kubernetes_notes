@@ -17,5 +17,16 @@ NAME                 STATUS    ROLES     AGE       VERSION
 docker-for-desktop   Ready     master    4m        v1.10.11
 ```
 
+To check the given context under which `kubectl` is executing you can run `kubectl get-contexts`. In the below we are using `minikube` as opposed to `docker`.
+
+```
+asteroid-m:~ jamesveitch$ kubectl config get-contexts
+
+CURRENT   NAME                 CLUSTER                      AUTHINFO             NAMESPACE
+          docker-for-desktop   docker-for-desktop-cluster   docker-for-desktop   
+*         minikube             minikube                     minikube             
+
+```
+
 
 
