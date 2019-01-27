@@ -10,5 +10,5 @@ Minikube and Docker spin up single node clusters only for development and testin
 * Kops \(best for AWS\)
 * Kubeadm
 
-Either Kops or Kubeadm can be used for production clusters \(use only one, you don't need both\).
+Either Kops or Kubeadm can be used for production clusters \(use only one, you don't need both\). With both of these solutions you need to maintain the `master` nodes \(versus a managed solution like EKS\).
 
