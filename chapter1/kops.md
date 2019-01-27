@@ -32,7 +32,7 @@ Host default
   LogLevel FATAL
 ```
 
-
+To connect to the box just run `vagrant ssh`.
 
 ## Setting up on AWS
 
