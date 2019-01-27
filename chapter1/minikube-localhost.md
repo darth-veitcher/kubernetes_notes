@@ -1,8 +1,8 @@
 # Getting started - Minikube
 
-Locally setup a kubernetes cluster using the `minikube` application which can be found on \[GitHub\]\([https://github.com/kubernetes/minikube/releases\](https://github.com/kubernetes/minikube/releases%29\).
+Locally setup a kubernetes cluster using the `minikube` application which can be found on [GitHub](https://github.com/kubernetes/minikube/releases).
 
-Start the local kubernetes cluster using `minikube start`
+Once installed, start the local kubernetes cluster using `minikube start`
 
 One started this will have create a local `~/.kube/config` file which allows you to connect to the newly created VM with `kubectl` command.
 
