@@ -58,7 +58,24 @@ asteroid-m:~ jamesveitch$ kubectl get nodes
 
 NAME       STATUS    ROLES     AGE       VERSION
 minikube   Ready     master    45m       v1.13.2
+```
 
+## Deploying a container
+
+Similar to minikube we first create a deployment and then expose it.
+
+```
+kubectl run hello-kubernetes --image=gcr.io/google_containers/echoserver:1.4 --port=8080
+kubectl expose deployment hello-kubernetes --type=NodePort
+```
+
+We now can show details by connecting to the service
+
+```
+asteroid-m:~ jamesveitch$ kubectl get service hello-kubernetes
+
+NAME               TYPE       CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+hello-kubernetes   NodePort   10.107.181.111   <none>        8080:30003/TCP   2m
 ```
 
 
