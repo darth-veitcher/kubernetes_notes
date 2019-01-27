@@ -34,6 +34,31 @@ Host default
 
 To connect to the box just run `vagrant ssh`.
 
+```
+Welcome to Ubuntu 18.04.1 LTS (GNU/Linux 4.15.0-43-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Sun Jan 27 16:26:10 UTC 2019
+
+  System load:  0.0              Processes:             99
+  Usage of /:   9.8% of 9.63GB   Users logged in:       0
+  Memory usage: 13%              IP address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+0 packages can be updated.
+0 updates are security updates.
+
+
+vagrant@ubuntu-bionic:~$ 
+```
+
 ## Setting up on AWS
 
 
