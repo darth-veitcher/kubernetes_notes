@@ -14,7 +14,7 @@ Use [Vagrant](https://www.vagrantup.com) if you need access to a Linux box \(and
 mkdir -p ~/k8s/ubuntu
 cd ~/k8s/ubuntu
 vagrant init ubuntu/bionic64
-vagrant up --provider=virtualbox  # modify as approproate
+vagrant up --provider=virtualbox  # modify as appropriate
 ```
 
 At the end of the spinning up process you'll see something along the lines of `default: /vagrant => /Users/jamesveitch/k8s/ubuntu` which shows that the folder on the guest has been mapped to the root directory of the `Vagrantfile`.
