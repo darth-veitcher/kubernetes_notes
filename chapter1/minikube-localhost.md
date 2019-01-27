@@ -4,7 +4,7 @@ Locally setup a kubernetes cluster using the `minikube` application which can be
 
 Once installed, start the local kubernetes cluster using `minikube start`
 
-One started this will have create a local `~/.kube/config` file which allows you to connect to the newly created VM with `kubectl` command.
+This will have created a local `~/.kube/config` file which allows you to connect to the newly created VM with `kubectl` command.
 
 ```
 cat ~/.kube/config
