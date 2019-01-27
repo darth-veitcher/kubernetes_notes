@@ -15,6 +15,8 @@ vagrant init ubuntu/bionic64
 vagrant up --provider=virtualbox  # modify as approproate
 ```
 
+At the end of the spinning up process you'll see something along the lines of `default: /vagrant => /Users/jamesveitch/k8s/ubuntu` which shows that the folder on the guest has been mapped to the root directory of the `Vagrantfile`.
+
 ## Setting up on AWS
 
 
