@@ -46,6 +46,8 @@ The above command does the following:
 * `--image=` - the particular image we want to run \(in this case the `echoserver`\)
 * `--port=8080` - listen on port 8080
 
+We get a response `deployment.apps "hello-minikube" created` from the cluster.
+
 ## MacOS with VMWare Fusion
 
 For users with VMWare Fusion installed and not wanting to download VirtualBox in addition to it you can ask minikube to launch the VM using this application instead using the `--vm-driver=vmwarefusion` switch in the command.
