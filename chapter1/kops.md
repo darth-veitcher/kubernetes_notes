@@ -6,7 +6,9 @@ This tool allows you to do production grade installations, upgrades and manageme
 
 ## Vagrant
 
-Grab vagrant and install locally. Create a local working folder and then spin up an ubuntu box.
+Use [Vagrant](https://www.vagrantup.com) if you need access to a Linux box \(and don't necessarily want to use a container\).
+
+[Download vagrant](https://www.vagrantup.com/downloads.html) and install locally. Create a local working folder and then spin up an ubuntu box.
 
 ```
 mkdir -p ~/k8s/ubuntu
@@ -56,7 +58,7 @@ Welcome to Ubuntu 18.04.1 LTS (GNU/Linux 4.15.0-43-generic x86_64)
 0 updates are security updates.
 
 
-vagrant@ubuntu-bionic:~$ 
+vagrant@ubuntu-bionic:~$
 ```
 
 ## Setting up on AWS
