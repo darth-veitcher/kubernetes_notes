@@ -24,8 +24,16 @@ asteroid-m:~ jamesveitch$ kubectl config get-contexts
 
 CURRENT   NAME                 CLUSTER                      AUTHINFO             NAMESPACE
           docker-for-desktop   docker-for-desktop-cluster   docker-for-desktop   
-*         minikube             minikube                     minikube             
+*         minikube             minikube                     minikube
+```
 
+We can switch this to docker with a `use-context` command:
+
+```
+asteroid-m:~ jamesveitch$ kubectl config get-contexts
+CURRENT   NAME                 CLUSTER                      AUTHINFO             NAMESPACE
+*         docker-for-desktop   docker-for-desktop-cluster   docker-for-desktop   
+          minikube             minikube                     minikube             
 ```
 
 
