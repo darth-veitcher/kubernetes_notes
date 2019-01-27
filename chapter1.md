@@ -52,7 +52,13 @@ A response `deployment.apps "hello-minikube" created` is received from the clust
 kubectl expose deployment hello-minikube --type=NodePort
 ```
 
-A response `service "hello-minikube" exposed` is received.
+A response `service "hello-minikube" exposed` is received. Now the service is exposed we then need to obtain the necessary url to connect to it.
+
+```
+minikube service hello-minikube --url
+```
+
+This may take some time \(as it downloads the image\) but will finally return a url that you can visit to see the detailed response from the `echoserver`.
 
 ## MacOS with VMWare Fusion
 
