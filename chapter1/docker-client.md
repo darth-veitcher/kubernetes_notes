@@ -37,5 +37,29 @@ CURRENT   NAME                 CLUSTER                      AUTHINFO            
           minikube             minikube                     minikube
 ```
 
+Interestingly you can see the difference in runtimes between these two contexts when running a `get nodes` against each.
+
+```
+asteroid-m:~ jamesveitch$ kubectl config get-contexts
+
+CURRENT   NAME                 CLUSTER                      AUTHINFO             NAMESPACE
+*         docker-for-desktop   docker-for-desktop-cluster   docker-for-desktop   
+          minikube             minikube                     minikube             
+
+asteroid-m:~ jamesveitch$ kubectl get nodes
+
+NAME                 STATUS    ROLES     AGE       VERSION
+docker-for-desktop   Ready     master    11m       v1.10.11
+
+asteroid-m:~ jamesveitch$ kubectl config use-context minikube
+Switched to context "minikube".
+
+asteroid-m:~ jamesveitch$ kubectl get nodes
+
+NAME       STATUS    ROLES     AGE       VERSION
+minikube   Ready     master    45m       v1.13.2
+
+```
+
 
 
