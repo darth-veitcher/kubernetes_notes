@@ -17,6 +17,23 @@ vagrant up --provider=virtualbox  # modify as approproate
 
 At the end of the spinning up process you'll see something along the lines of `default: /vagrant => /Users/jamesveitch/k8s/ubuntu` which shows that the folder on the guest has been mapped to the root directory of the `Vagrantfile`.
 
+Running `vagrant ssh-config` shows the details to connect.
+
+```
+Host default
+  HostName 127.0.0.1
+  User vagrant
+  Port 2222
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /Users/jamesveitch/k8s/ubuntu/.vagrant/machines/default/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+```
+
+
+
 ## Setting up on AWS
 
 
