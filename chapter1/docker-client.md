@@ -78,5 +78,29 @@ NAME               TYPE       CLUSTER-IP       EXTERNAL-IP   PORT(S)          AG
 hello-kubernetes   NodePort   10.107.181.111   <none>        8080:30003/TCP   2m
 ```
 
+In the `PORT(S)` section the second element represents the host port mapping, so `localhost:30003` will take you to the `8080` on the container we've exposed.
+
+```
+asteroid-m:~ jamesveitch$ curl localhost:30003
+
+CLIENT VALUES:
+client_address=192.168.65.3
+command=GET
+real path=/
+query=nil
+request_version=1.1
+request_uri=http://localhost:8080/
+
+SERVER VALUES:
+server_version=nginx: 1.10.0 - lua: 10001
+
+HEADERS RECEIVED:
+accept=*/*
+host=localhost:30003
+user-agent=curl/7.54.0
+BODY:
+-no body in request-
+```
+
 
 
