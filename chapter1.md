@@ -46,7 +46,13 @@ The above command does the following:
 * `--image=` - the particular image we want to run \(in this case the `echoserver`\)
 * `--port=8080` - listen on port 8080
 
-We get a response `deployment.apps "hello-minikube" created` from the cluster.
+A response `deployment.apps "hello-minikube" created` is received from the cluster and we then need to run another command to expose it to our host machine.
+
+```
+kubectl expose deployment hello-minikube --type=NodePort
+```
+
+A response `service "hello-minikube" exposed` is receibed.
 
 ## MacOS with VMWare Fusion
 
