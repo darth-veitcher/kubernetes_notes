@@ -1,4 +1,4 @@
-# Getting started
+# Getting started - Minikube
 
 Locally setup a kubernetes cluster using the `minikube` application which can be found on \[GitHub\]\([https://github.com/kubernetes/minikube/releases\](https://github.com/kubernetes/minikube/releases%29\).
 
