@@ -1,3 +1,4 @@
-# My Awesome Book
+# Kubernetes Homelabbing
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+An introduction, with accompanying notes, for using Kubernetes in a Homelab environment for learning and self-hosting.
+
