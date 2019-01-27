@@ -60,6 +60,35 @@ minikube service hello-minikube --url
 
 This may take some time \(as it downloads the image\) but will finally return a url that you can visit to see the detailed response from the `echoserver`.
 
+You can test this without needing to use a browser with `curl`
+
+```
+asteroid-m:~ jamesveitch$ minikube service hello-minikube --url
+
+http://172.16.23.174:30268
+...
+
+asteroid-m:~ jamesveitch$ curl http://172.16.23.174:30268
+
+CLIENT VALUES:
+client_address=172.17.0.1
+command=GET
+real path=/
+query=nil
+request_version=1.1
+request_uri=http://172.16.23.174:8080/
+
+SERVER VALUES:
+server_version=nginx: 1.10.0 - lua: 10001
+
+HEADERS RECEIVED:
+accept=*/*
+host=172.16.23.174:30268
+user-agent=curl/7.54.0
+BODY:
+-no body in request-
+```
+
 ## MacOS with VMWare Fusion
 
 For users with VMWare Fusion installed and not wanting to download VirtualBox in addition to it you can ask minikube to launch the VM using this application instead using the `--vm-driver=vmwarefusion` switch in the command.
