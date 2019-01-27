@@ -89,6 +89,8 @@ BODY:
 -no body in request-
 ```
 
+Finally, shut everything down with a `minikube stop`
+
 ## MacOS with VMWare Fusion
 
 For users with VMWare Fusion installed and not wanting to download VirtualBox in addition to it you can ask minikube to launch the VM using this application instead using the `--vm-driver=vmwarefusion` switch in the command.
