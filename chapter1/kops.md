@@ -4,9 +4,7 @@ We will setup kubernetes on AWS using Kops, which stands for **Kubernetes Operat
 
 This tool allows you to do production grade installations, upgrades and management of clusters but only works on sensible operating systems \(Mac and Linux\).
 
-
-
-Vagrant
+## Vagrant
 
 Grab vagrant and install locally. Create a local working folder and then spin up an ubuntu box.
 
@@ -18,8 +16,6 @@ vagrant up --provider=virtualbox  # modify as approproate
 ```
 
 ## Setting up on AWS
-
-
 
 
 
