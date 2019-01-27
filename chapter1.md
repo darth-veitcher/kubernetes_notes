@@ -31,6 +31,12 @@ users:
     client-key: /Users/jamesveitch/.minikube/client.key
 ```
 
+## Kubectl
+
+Some commands to run in order to test the cluster is all working fine.
+
+
+
 ## MacOS with VMWare Fusion
 
 For users with VMWare Fusion installed and not wanting to download VirtualBox in addition to it you can ask minikube to launch the VM using this application instead using the `--vm-driver=vmwarefusion` switch in the command.
@@ -39,7 +45,5 @@ For users with VMWare Fusion installed and not wanting to download VirtualBox in
 minikube start --vm-driver=vmwarefusion
 ```
 
-See https://github.com/kubernetes/minikube/blob/master/docs/drivers.md\#vmware-unified-driver for details on the deprecation of the vmwarefusion method in future releases for a unified driver instead.
-
-
+See [https://github.com/kubernetes/minikube/blob/master/docs/drivers.md\#vmware-unified-driver](https://github.com/kubernetes/minikube/blob/master/docs/drivers.md#vmware-unified-driver) for details on the deprecation of the vmwarefusion method in future releases for a unified driver instead.
 
