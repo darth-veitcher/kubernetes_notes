@@ -35,7 +35,16 @@ users:
 
 Some commands to run in order to test the cluster is all working fine.
 
+```
+kubectl run hello-minikube --image=gcr.io/google_containers/echoserver:1.4 --port=8080
+```
 
+The above command does the following:
+
+* `run` - tells the cluster to run a specific image
+* `hello-minikube` - names the image
+* `--image=` - the particular image we want to run \(in this case the `echoserver`\)
+* `--port=8080` - listen on port 8080
 
 ## MacOS with VMWare Fusion
 
