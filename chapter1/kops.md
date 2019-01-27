@@ -8,7 +8,7 @@ This tool allows you to do production grade installations, upgrades and manageme
 
 Use [Vagrant](https://www.vagrantup.com) if you need access to a Linux box \(and don't necessarily want to use a container\).
 
-[Download vagrant](https://www.vagrantup.com/downloads.html) and install locally. Create a local working folder and then spin up an ubuntu box.
+[Download vagrant](https://www.vagrantup.com/downloads.html) and install locally. Create a local working folder and then spin up an ubuntu box. If you don't have already you will need to install [Virtualbox](https://www.virtualbox.org) first.
 
 ```
 mkdir -p ~/k8s/ubuntu
@@ -63,5 +63,5 @@ vagrant@ubuntu-bionic:~$
 
 ## Setting up on AWS
 
-
+Navigate to [http://github.com/kubernetes/kops](http://github.com/kubernetes/kops) and download the latest release. We will be doing this on our linux box.
 
