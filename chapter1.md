@@ -7,7 +7,7 @@ To deploy a Kubernetes cluster there are multiple tools available:
 
 Minikube and Docker spin up single node clusters only for development and testing. You would not want these for a production setup.
 
-* Kops
+* Kops \(best for AWS\)
 * Kubeadm
 
 Either Kops or Kubeadm can be used for production clusters \(use only one, you don't need both\).
