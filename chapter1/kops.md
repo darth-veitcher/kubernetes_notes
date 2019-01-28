@@ -75,7 +75,7 @@ Now let's get the AWS toolsets we'll need. Again, still in the linux box.
 
 ```
 sudo apt-get install -y python-pip
-sudo -H pip install --upgrade pip awscli
+sudo -H pip install --upgrade pip awscli  # to install globally
 ```
 
 Wider usage of the AWS CLI tool and setup of an initial AWS account are out of scope for this. In order to use the tool for our purposes we need to configure some files which can be found in a new folder `~/.aws` in your home directory.
