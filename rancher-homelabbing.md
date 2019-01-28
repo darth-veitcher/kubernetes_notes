@@ -18,6 +18,7 @@ Some useful articles:
 * [Configuring Network Interfaces](https://rancher.com/docs/os/v1.x/en/installation/networking/interfaces/)
 * [Using ZFS \(official\)](https://rancher.com/docs/os/v1.x/en/installation/storage/using-zfs/)
 * [Changing Docker Versions](https://rancher.com/docs/os/v1.1/en/configuration/switching-docker-versions/)
+* [kubectl cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet)
 
 You need to downgrade the Docker engine on RancherOS in order for Kubernetes to work \(ships with 18 at time of writing and k8s only supports 17\).
 

@@ -71,5 +71,17 @@ chmod +x kops-linux-amd64
 sudo mv kops-linux-amd64 /usr/local/bin/kops
 ```
 
-Now let's get the AWS toolsets we'll need
+Now let's get the AWS toolsets we'll need. Again, still in the linux box.
+
+```
+sudo apt-get install -y python-pip
+sudo pip install --upgrade pip awscli
+```
+
+Wider usage of the AWS CLI tool and setup of an initial AWS account are out of scope for this. In order to use the tool for our purposes we need to configure some files which can be found in a new folder `~/.aws` in your home directory.
+
+* **config** - use this to set a sane default for `region` . I use `eu-west-2` which corresponds to London.
+* **credentials** - contains an `access key` and a `secret access key` that you generate from the aws console.
+
+
 
