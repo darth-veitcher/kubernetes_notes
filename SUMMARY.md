@@ -6,4 +6,5 @@
   * [Docker Client \(localhost\)](chapter1/docker-client.md)
   * [Kops \(AWS\)](chapter1/kops.md)
   * [Kubeadm \(Digital Ocean\)](chapter1/kubeadm-digital-ocean.md)
+* [Rancher Homelabbing](rancher-homelabbing.md)
 
